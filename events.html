@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Events | Your Next Chapter</title>
+        <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
+    <body>
+
+        <header>
+            <a href="index.html" class="logo">Your <span>Next</span> Chapter</a>
+
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="events.html">Events</a></li>
+             </ul>
+        </header>
+
+            <section class="hero page-hero">
+                <div class="hero-content fade-in">
+                    <h1> Upcoming <span>Events</span></h1>
+                    <p>Join us for healing-centered community events.</p>
+                </div>
+            </section>
+
+            <section class="content">
+                <h2> Event Schedule</h2>
+
+                <!--Events Table-->
+
+                <table class="schedule">
+                   <thead>
+                        <tr>
+                        <th>Date</th>
+                        <th>Event</th>
+                        <th>Location</th>
+                        <th>Time</th>
+                    </tr>
+                   </thead>
+                   <tbody>
+                    <tr>
+                        <td>March 15th</td>
+                        <td>Hope & Healing Gala</td>
+                        <td>Main Hall</td>
+                        <td>6:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>April 10th</td>
+                        <td>Community Wellness Workshop</td>
+                        <td>Conference Room</td>
+                        <td>2:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>May 5th</td>
+                        <td>Remembrance Candlelight Vigil</td>
+                        <td>Outdoor Pavilion</td>
+                        <td>7:30 PM</td>
+                    </tr>
+                    <tr>
+                        <td>June 12th</td>
+                        <td>Founders Dinner</td>
+                        <td>Hyatt Hotel</td>
+                        <td>6:00 PM</td>
+                    </tr>
+                   </tbody>
+                </table>
+            </section>
+
+            <section class="content">
+                <h2>Event <span>Gallery</span></h2>
+
+                <div class="event-gallery">
+                    <article class="event-card">
+                        <img src="assets/images/Gala Photo.jpg" alt="Hope & Healing Gala">
+                        <h3>Hope & Healing Gala</h3>
+                        <p>
+                            An inspiring night that brings together survivors, families, and supporters to
+                            celebrate resilience, remembrance, and hope for brighter days ahead. With connection,
+                            storytelling, and support designed to honor every journey and every next step forward.
+                        </p>
+                    </article>
+
+
+                    <article class="event-card">
+                        <img src="assets/images/crystal workshop.jpg" alt="Healing Crystals Workshop">
+                        <h3>Healing Crystals Workshop</h3>
+                        <p>
+                            An introductory workshop exploring the meaning, energy, and grounding practices
+                            of healing crystals, offering participants a space to relax, reflect, and restore 
+                            balance as they get a chance to craft their own healing bracelets.
+                        </p>
+                    </article>
+
+                    <article class="event-card">
+                        <img src="assets/images/meditation workshop.jpeg" alt="Community Wellness Workshop">
+                        <h3>Meditation & Community Wellness Workshop</h3>
+                        <p>
+                            A guided meditation experience designed to quiet the mind, reduce stress, and help
+                            participants reconnect with their inner peace and emotional clarity
+                        </p>
+                    </article>
+
+                    <article class="event-card">
+                        <img src="assets/images/vigil.jpg" alt="Candlelight Vigil">
+                        <h3>Remembrance Candlelight Vigil</h3>
+                        <p>
+                            A quiet and reflective gathering to honor loved ones and stand together in solidarity and hope.
+                        </p>
+                    </article>
+
+                    <article class="event-card">
+                        <img src="assets/images/Sponsors Dinner.jpg" alt="Founder's Dinner">
+                        <h3>Founders Dinner</h3>
+                        <p>
+                            An exclusive dinner recognizing the founders, partners, sponsors, and supporters
+                            who helped bring our mission to life
+                        </p>
+                    </article>
+
+            <!-- Buy Tickets-->
+             <section class="content">
+                <h2>Tickets & <span>Special Events</span></h2>
+
+                <div class="special-events">
+
+                    <article class="event-card">
+                        <img src="assets/imaGES/Gala Photo.jpg" alt="Annual Healing Gala">
+                        <h3>Annual Hope & Healing Gala</h3>
+                        <p>
+                            Join us for an elegant evening of connection, inspiration, and hope.
+                            The Healing Gala supports our mission while celebrating resilience
+                            and community.
+                        </p>
+
+                        <button class="btn" onclick="alert('Ticket sales opening soon!')">
+                            Buy Gala Tickets
+                        </button>
+                    </article>
+
+                    <article class="event-card">
+                        <img src="assets/images/Sponsors Dinner.jpg" alt="Founder's Dinner">
+                        <h3>Founder's Dinner</h3>
+                        <p>
+                            Come experience and intimate dining experience with our founder, sponsors and supporters,
+                            sharing stories, vision, and the future of healing together.
+                        </p>
+                        
+                        <button class="btn" onclick="alert('Reservations coming soon!')">
+                            Reserve Founders Dinner Seat
+                        </button>
+                    </article>
+                </div>
+            </section>
+
+
+
+            <!-- Contact Form-->
+             <section class="contact-section">
+                <h2>Contact <span>Us</span></h2>
+
+                <form class="contact-form">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <textarea placeholder="Message or Booking Inquiry"></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+             </section>
+
+             <button id="backToTop">↑</button>
+
+
+        <footer class="footer">
+            <p>&copy; 1995 Your Next Chapter | Healing Starts With Hope</p>
+        </footer>
+
+        <script>
+const backToTop = document.getElementById("backToTop");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 300) {
+                backToTop.style.display="flex";
+            } else {
+                backToTop.style.display="none";
+            }
+        } );
+
+        backToTop.addEventListener("click", () => {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
+
+        </body>
+        </html>

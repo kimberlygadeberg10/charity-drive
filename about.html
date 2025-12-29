@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>About Us | Your Next Chapter</title>
+        <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
+
+    <body>
+
+        <header>
+            <a href="index.html" class="logo">Your <span>Next</span> Chapter</a>
+
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="events.html">Events</a></li>
+                </ul>
+        </header>
+
+            <section class="content-fade-in">
+                <h1>About <span>Us</span></h1>
+                <p>Your Next Chapter was founded by survivors who understand pain, loss, and recovery.
+                    We exist to provide hope, connection, and healing for individuals impacted by
+                    depression, suicide, and traumatic life experiences.
+                </p>
+            </section>
+
+            <section class="content compact">
+                <h2>Our Mission</h2>
+                <p>We believe that no one's story ends in their darkest chapter.
+                    Through community events, education, and compassionate support.
+                    We help individuals take their next step forward.
+                </p>
+
+                <h2>Our Values</h2>
+                <ul>
+                    <li>Compassion & understanding</li>
+                    <li>Community & connection</li>
+                    <li>Hope & healing</li>
+                </ul>
+            </section>
+
+            <section class="content team">
+                <h2>Our <span>Team</span> & Volunteers</h2>
+                <p class="team-intro">
+                    Our team is made up of survivors, advocates, and volunteers who believe in 
+                    power of compassion, connection, and hope. Each person plays a vital role in
+                    helping others take their next step forward.
+                </p>
+
+                <div class="team-grid">
+
+                    <article class="team-card">
+                        <img src="assets/images/director.jpg" alt="Founder and Program Director">
+                        <h3>Kimberly Gadeberg</h3>
+                        <p class="role">Founder & Program Director</p>
+                        <p>
+                            Kimberly brings lived experience and a deep commitment to creating safe,
+                            supportive spaces for healing and growth.
+                        </p>
+                    </article>
+
+                    <article class="team-card">
+                        <img src="assets/images/volunteer.jpg" alt="Community Outreach Coordinator">
+                        <h3>David Lee</h3>
+                        <p class="role">Community Outreach Coordinator</p>
+                        <p>
+                            David connects individuals with resources and leads outreach efforts
+                            that strengthen community support networks.
+                        </p>
+                    </article>
+
+                    <article class="team-card">
+                        <img src="assets/images/volunteer 2.jpg" alt="Volunteer Support Leader">
+                        <h3> Alex Rivera</h3>
+                        <p class="role">Volunteer Support Leader</p>
+                        <p>
+                            Alex works closely with volunteers to ensure they feel supported,
+                            empowered, and prepared to help others.
+                        </p>
+                    </article>
+               
+                    </div>
+                    </section>
+
+                    <footer class="footer">
+                        <p>&copy; 1995 Your Next Chapter | Healing Starts With Hope</p>
+                    </footer>
+
+                    <script>
+        const backToTop = document.getElementById("backToTop");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 300) {
+                backToTop.style.display="flex";
+            } else {
+                backToTop.style.display="none";
+            }
+        } );
+
+        backToTop.addEventListener("click", () => {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
+
+    <button id="backToTop">↑</button>
+
+
+
+                    </body>
+                    </html>

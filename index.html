@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Next Chapter</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+    <!-- Header / Navigation-->
+  <header>
+    <a href="index.html" class="logo">Your <span>Next</span> Chapter</a>
+
+    <ul class="navigation">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="events.html">Events</a></li>
+    </ul>
+  </header>
+
+  <!-- Hero Section-->
+  <section class="hero">
+    <div class="hero-content fade-in">
+      <h1>Your <span>Next </span>Chapter</h1>
+      <h2>Because Your Story Doesn't End Here</h2>
+      <p>
+        Your Next Chapter is a charity-driven event center dedicated to supporting
+        individuals affected by depression, suicide, and traumatic life events.
+        We create safe spaces for healing, life long connections, and hope.
+        </p>
+        <a href="events.html" class="btn">Explore Our Events</a>
+    </div>
+    </section>
+
+    <!--INtro / Mission-->
+<section class="content">
+    <h2>Our <span>Mission</span></h2>
+    <p>
+        Founded by survivors, Your Next Chapter exists to remind individuals that
+        even in the darkest moments, there is a path forward. Through community-driven
+        events, education, and outreach, we help people take meaningful steps towards recovery and healing.
+    </p>
+</section>
+
+    <!-- Featured Sections-->
+     <section class="content">
+        <h2>What We <span>Offer</span></h2>
+        <p> Support groups, healing workshops and exercise, community events</p> 
+
+        <div class="team-grid">
+
+            <article class="team-card">
+                <h3>Healing Events</h3>
+                <p>
+                    From candlelight vigils to health and wellness workshops, our events are designed
+                    to foster understanding, support, hope, healing and education.
+                </p>
+            </article>
+
+            <article class="team-card">
+                <h3>Community Support</h3>
+                <p>
+                    Your Next Chapter brings together survivors, advocates, volunteers, and the community
+                    to build strong, compassionate support networks that will stand the test of time.
+                </p>
+            </article>
+
+            <article class="team-card">
+                <h3>Volunteer Opportunities</h3>
+                <p>
+                    Our volunteers are the heart and soul of our mission, helping us to create meaningful
+                    experiences that change lives.
+                </p>
+            </article>
+
+        </div>
+     </section>
+
+     <!--Call To Action-->
+     <section class="content">
+        <h2> Join The <span>Movement</span></h2>
+        <p>
+            Whether you're looking to attend an event, volunteer your time, donate to our cause,
+            or simply learn more, we invite you to be a part of a community where healing begins
+            and hope grows.
+        </p>
+        <a href="about.html" class="btn">Learn More About Us</a>
+     </section>
+
+     <footer class="content">
+        <p>&copy; 1995 Your Next Chapter | Healing Starts With Hope</p>
+     </footer>
+
+     <button id="backToTop">↑</button>
+   
+     <script>
+const backToTop = document.getElementById("backToTop");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 300) {
+                backToTop.style.display="flex";
+            } else {
+                backToTop.style.display="none";
+            }
+        } );
+
+        backToTop.addEventListener("click", () => {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
+</body>
+</html>
