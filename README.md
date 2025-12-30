@@ -57,4 +57,4 @@ While building this project, I learned how to:
 
 1. Download or clone the repository:
 ```bash
-git clone https://github.com/yourusername/your-next-chapter.git
+git clone https://github.com/kimberlygadeberg10/your-next-chapter.git
