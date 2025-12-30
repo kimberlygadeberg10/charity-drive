@@ -57,23 +57,8 @@ While building this project, I learned how to:
 
 1. Download or clone the repository:
 ```bash
-git clone https://github.com/kimberlygadeberg10/your-next-chapter.git
+git clone (https://github.com/kimberlygadeberg10/charity-drive)
 
 2. Open the project folder.
 
 3. Open index.html in your web browser or use Live Server in VS Code.
-
----
-
-## Future Improvements
-
-Some things I would like to improve as I continue learning:
-
--Add JavaScript for form validation
--Make ticket buttons connect to a real booking system
--Improve accessibility
--Add more animations and interactivity
-
-Notes
-This project was created while I am still learning web development so the code may not be perfect, but it will show what I have been able to learn so far as well as what still needs improvement.
-
